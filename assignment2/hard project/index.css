@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+#mid{
+    position: absolute;
+    height: 80%;
+    width: 25%;
+    margin-top: 8%;
+    margin-left: 38%;
+}
+#left{
+    height: 100%;
+    width: 50%;
+    background-color: #FEFEFE;
+    position: relative;
+
+}
+#right{
+    height: 100%;
+    width: 50%;
+    background-color: #BC3C30;
+    color: #F0F0F0;
+    position: relative;
+    
+}
+#search{
+    display: flex;
+    gap: 30px;
+    height: 40px;
+    width: 25%;
+    background-color: #F0F0F0;
+    /* justify-content: center; */
+    align-items: center;
+    border-radius: 20%;
+    margin-left: 20px;
+}
+#nav1{
+    padding: 15px;
+    display: flex;
+    gap: 90px;
+}
+#nav2{
+    display: flex;
+    padding: 15px;
+    gap: 70px;
+margin-left: 60px;
+color: #F0F0F0;
+
+
+}
+#rightmain h1{
+    color: #F0F0F0;
+    font-weight: 600;
+    font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+     
+    /* margin-top: 70px; */
+}
+hr{
+    margin-top: 30px;
+    height: 190px;
+   
+}
+#coc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 10px; */
+    margin-top: 20px;
+}
+.vertical-text {
+  font-family: 'Georgia', serif; 
+  font-size: 3rem;
+  font-style: italic;
+  color: #1a332e; 
+  
+  
+  writing-mode: vertical-lr; 
+  transform: rotate(180deg);
+  
+  position: absolute;
+  text-align: center;
+  margin-left: 60px;
+  margin-top: 110px;
+
+}
+#rightmain{
+    position: absolute;
+    margin-top: 75px;
+     margin-left: 300px;
+}
+#first{
+    gap: 15px;
+    display: flex;
+    font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+}
+.detail{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+.detail div{
+    margin-top: 6px;
+    
+}
+#content{
+    margin-top: 25px;
+    height: 50px;
+    width: 100px;
+    font-weight: 900;
+    margin-left: 25px;
+}
+#coc img{
+    height: 100px;
+    width: 100px;
+}
+#list{
+       position: absolute;
+       margin-top: 70px;
+       margin-left: 170px;
+}
+
+.helper{
+    display: flex;
+    /* font-weight: 400; */
+    height: 30px;
+    margin-top: 10px;
+    gap: 10px;
+}
+i{
+    font-size: 25px;
+}

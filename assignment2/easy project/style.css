@@ -1,0 +1,148 @@
+*{
+   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+body{
+ background-color: #0a0a0a;
+  color: #ffffff;
+  font-family: 'Manrope', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+}
+#parent{
+    background-color: #030303;
+    display: flex;
+    /* justify-content: center; */
+  padding: 20px 50px;
+   justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+   
+
+}
+#child{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    
+    gap: 40px;
+}
+
+#logo-container{
+    display: flex;
+}
+.logo-img {
+    height:20px;        /* Adjust this to match your text size */
+    /* width: auto;         Keeps the image proportions correct */
+}
+#heading{
+    display: flex;
+    height: 40%;
+    justify-content: center;
+    font-size: 50px;
+    padding: 30px;
+}
+
+.b1{
+    /* padding: 40px; */
+    display: flex;
+    border-radius: 38%;
+    height: 30px;
+    width: 80px;
+    background-color: #2d2b2b;
+    align-items: center;
+    justify-content: center;
+    /* gap: 40px; */
+
+}
+#buttonss{
+    
+    padding: 30px;
+    height: 20%;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+#cards{
+    display: flex;
+    height: 300px ;
+    align-items: center;
+    justify-content: center;
+    background-color: #0b0b0b;
+    margin: 20px;
+    /* padding: 20px; */
+    gap: 10px;
+    flex-wrap: wrap;
+    
+}
+#card1{
+    /* height: 50px; */
+   width: 340px;
+    background-color: #3f3636;
+    height: 490px;
+     border-radius: 20px;
+     overflow: hidden; 
+}
+#card2{
+    width: 340px;
+    /* height: 50px; */
+    background-color: #3f3636;
+    height: 490px;
+     border-radius: 20px;
+     overflow: hidden; 
+}
+#card3{
+    width: 340px;
+    /* height: 50px; */
+    background-color: #3f3636;
+    border-radius: 20px;
+    height: 490px;
+    overflow: hidden; 
+}
+.inside{
+    border-radius: 50px;
+
+    /* height: 50%; */
+}
+#fixme{
+    height: 200px;
+    width: 290px;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px
+}
+.likebutton{
+    background-color: #c73535;
+    height: 15px;
+    width: 50px;
+    
+    padding: 30px;
+     margin: 20px;
+}
+.b2{
+    /* padding: 40px; */
+    color: rgb(251, 210, 108);
+    display: flex;
+  border-radius: 40%;  
+    height: 15px;
+    width: 50px;
+    background-color: #bd4b29;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin : 20px;
+    /* gap: 40px; */
+
+}
+
+h2{
+    font-weight: 500;
+    font-family: 'Manrope', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
